@@ -1,6 +1,6 @@
-import camiseta1 from '../assets/camisetas/1.png'
-import camiseta2 from '../assets/camisetas/2.png'
-import camiseta3 from '../assets/camisetas/3.png'
+import tshirt1 from '../assets/tshirt/tshirt1.png'
+import tshirt2 from '../assets/tshirt/tshirt2.png'
+import tshirt3 from '../assets/tshirt/tshirt3.png'
 
 import { useKeenSlider } from 'keen-slider/react'
 import 'keen-slider/keen-slider.min.css'
@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <HomeContainer ref={sliderRef} className="keen-slider">
       <Product className="keen-slider__slide">
-        <Image src={camiseta1} width={520} height={480} alt="" />
+        <Image src={tshirt1} width={520} height={480} alt="" />
 
         <footer>
           <strong>Camiseta X</strong>
@@ -29,7 +29,7 @@ export default function Home() {
       </Product>
 
       <Product className="keen-slider__slide">
-        <Image src={camiseta2} width={520} height={480} alt="" />
+        <Image src={tshirt2} width={520} height={480} alt="" />
 
         <footer>
           <strong>Camiseta X</strong>
@@ -38,7 +38,7 @@ export default function Home() {
       </Product>
 
       <Product className="keen-slider__slide">
-        <Image src={camiseta3} width={520} height={480} alt="" />
+        <Image src={tshirt3} width={520} height={480} alt="" />
 
         <footer>
           <strong>Camiseta X</strong>
@@ -47,7 +47,7 @@ export default function Home() {
       </Product>
 
       <Product className="keen-slider__slide">
-        <Image src={camiseta3} width={520} height={480} alt="" />
+        <Image src={tshirt1} width={520} height={480} alt="" />
 
         <footer>
           <strong>Camiseta X</strong>
@@ -56,7 +56,7 @@ export default function Home() {
       </Product>
 
       <Product className="keen-slider__slide">
-        <Image src={camiseta3} width={520} height={480} alt="" />
+        <Image src={tshirt2} width={520} height={480} alt="" />
 
         <footer>
           <strong>Camiseta X</strong>
