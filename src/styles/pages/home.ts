@@ -15,12 +15,15 @@ export const Product = styled('a', {
   position: 'relative',
   overflow: 'hidden',
 
+  // padding: '2rem',
+
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
 
   img: {
     objectFit: 'contain',
+    maxWidth: '90%',
   },
 
   footer: {
